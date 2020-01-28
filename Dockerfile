@@ -2,6 +2,8 @@ FROM centos:7
 
 MAINTAINER eduardo@fametec.com.br
 
+VOLUME /var/spool/postfix
+
 ENV GMAIL_USER postmaster@xxxxxxxxxxxxxxxxxxx
 
 ENV GMAIL_PASS xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
